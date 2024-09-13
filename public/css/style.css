@@ -74,9 +74,18 @@ hr {
 #menu {
   padding: 15px;
   transition: all 0.8s;
+  height: 210px;
+  gap: 0px;
+  border-radius: 0px 0px 16px 16px;
+  opacity: 0.8; /* Adjust opacity to be more visible */
+  position: relative; /* Allows layering with z-index */
+  background: linear-gradient(285.66deg, #FF5A85 -24.54%, #FF2E00 100%);
+  border-color: rgba(231, 231, 231, 0);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
+
 #menu.navbar-default {
-  background-color: #fff;
+  background: linear-gradient(285.66deg, #FF5A85 -24.54%, #FF2E00 100%);
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
@@ -208,15 +217,15 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
-  background-color: #e5e5e5;
+  /* background: url(../img/Rectangle8.png) center center no-repeat; */
+  background-color: #fff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
 .intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(250, 250, 250, 0.2);
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
@@ -246,7 +255,7 @@ header .intro-text {
 }
 /* Features Section */
 #features {
-  background: #f6f6f6;
+  background: #fff;
 }
 #features i.fa {
   font-size: 38px;
@@ -260,6 +269,39 @@ header .intro-text {
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
+#features.title {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(88, 88, 88, 1);
+}
+#features.subtitle {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+  text-align: left;
+  color: rgba(88, 88, 88, 1);
+}
+#features.line {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+  text-align: left;
+  flex-wrap: wrap;
+}
+#features.image {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
 /* About Section */
 #about {
   padding: 100px 0;

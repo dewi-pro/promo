@@ -161,24 +161,44 @@
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Antavaya Head Office",
+      "map"  : "https://www.google.com/maps/place/AntaVaya+Group/@-6.1633492,106.8223135,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69f5dbcc733395:0x5989727243dda082!8m2!3d-6.1633492!4d106.8248884!16s%2Fg%2F11cmfd234q?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Kota Kasablanka Mall",
+      "map"  : "https://www.google.com/maps/place/Antavaya+-+Kota+Kasablanka,+Jakarta/@-6.2241717,106.8383111,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69f381f51f6af5:0xec5a7aa1128578f4!8m2!3d-6.2241717!4d106.843182!16s%2Fg%2F11hds_20ns?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Central Park Mall",
+      "map"  : "https://www.google.com/maps/place/AntaVaya+Group/@-6.1633492,106.8223135,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69f5dbcc733395:0x5989727243dda082!8m2!3d-6.1633492!4d106.8248884!16s%2Fg%2F11cmfd234q?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Anta Umroh",
+      "map"  : "https://www.google.com/maps/place/AntaVaya+Group/@-6.1633492,106.8223135,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69f5dbcc733395:0x5989727243dda082!8m2!3d-6.1633492!4d106.8248884!16s%2Fg%2F11cmfd234q?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"
+    },
+    {
+      "title": "Trans Studio Mall Bandung",
+      "map"  : "https://www.google.com/maps/place/AntaVaya+Group/@-6.1633492,106.8223135,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69f5dbcc733395:0x5989727243dda082!8m2!3d-6.1633492!4d106.8248884!16s%2Fg%2F11cmfd234q?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"
+    },
+    {
+      "title": "Antavaya Bali",
+      "map"  : "https://www.google.com/maps/place/AntaVaya+Group/@-6.1633492,106.8223135,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69f5dbcc733395:0x5989727243dda082!8m2!3d-6.1633492!4d106.8248884!16s%2Fg%2F11cmfd234q?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"
+    },
+    {
+      "title": "Mall Of Indonesia",
+      "map"  : "https://www.google.com/maps/place/AntaVaya+Group/@-6.1633492,106.8223135,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69f5dbcc733395:0x5989727243dda082!8m2!3d-6.1633492!4d106.8248884!16s%2Fg%2F11cmfd234q?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"
+    },
+    {
+      "title": "Trans Studio Mall Cibubur",
+      "map"  : "https://www.google.com/maps/place/AntaVaya+Group/@-6.1633492,106.8223135,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69f5dbcc733395:0x5989727243dda082!8m2!3d-6.1633492!4d106.8248884!16s%2Fg%2F11cmfd234q?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"
+    },
+    {
+      "title": "Antavaya Surabaya",
+      "map"  : "https://www.google.com/maps/place/AntaVaya+Group/@-6.1633492,106.8223135,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69f5dbcc733395:0x5989727243dda082!8m2!3d-6.1633492!4d106.8248884!16s%2Fg%2F11cmfd234q?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"
+    },
+    {
+      "title": "Antavaya Balikpapan",
+      "map"  : "https://www.google.com/maps/place/AntaVaya+Group/@-6.1633492,106.8223135,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69f5dbcc733395:0x5989727243dda082!8m2!3d-6.1633492!4d106.8248884!16s%2Fg%2F11cmfd234q?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"
     }
   ]
 }

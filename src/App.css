@@ -40,3 +40,16 @@ body, html {
   margin: 0 auto; /* Center content */
   box-sizing: border-box;
 }
+.custom-nav {
+  width: 430px;
+  height: 210px;
+  gap: 0px;
+  border-radius: 0px 0px 16px 16px;
+  opacity: 0.5; /* Assuming you meant to set some opacity. If you want it fully transparent, use 0 */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  background-color: #f8f9fa; /* Optional: Add a background color */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+}

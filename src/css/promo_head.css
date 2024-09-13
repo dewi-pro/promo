@@ -1,0 +1,80 @@
+.image_header {
+    width: 390px;
+    height: 200px;
+    top: 104px;
+    left: 20px;
+    margin-inline: 9%;
+    margin-top: -120px;
+    gap: 0px;
+    border-radius: 5px 36px 5px 5px;
+    opacity: 1; /* Set to 1 to make it fully visible */
+    position: sticky;
+    box-shadow: 0 4px 18px rgba(247, 91, 128, 1); /* Horizontal offset, vertical offset, blur radius, color */
+
+  }
+  .link{
+    margin-top: 10px;
+    text-align: right;
+  }
+  .image_link{
+    background: url(../image/Rectangle8.png) center center no-repeat;
+    width: 430px;
+    height: 584px;
+    top: 1334px;
+    left: 430px;
+    gap: 0px;
+    border-radius: 10px 36px 0px 0px ;
+    opacity: 0px;
+    angle: 180 deg;
+  }
+  .title{
+    margin: 20px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: white;
+  }
+  .subtitle{
+    margin-inline: 20px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    text-align: left;
+    color: white;
+}
+.loc_background{
+width: 171px;
+height: 75px;
+margin: 10px;
+margin-inline: 20px;
+background: #FFFFFF;
+box-shadow: 0px 30px 60px rgba(50, 6, 6, 0.15);
+border-radius: 5px 16px 5px 5px;
+}
+.button_map{
+background: url(../image/Group2.png) center center no-repeat;
+width: 80%; /* Full width of the container */
+  height: 44px; /* Specific height */
+  border: none; /* Remove default button border */
+  border-radius: 5px; /* Optional: adjust border radius if needed */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  position: absolute; /* Position button absolutely within the container */
+  top: 70%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for accurate centering */
+  background-size: cover; 
+}
+.map_title{
+font-family: Poppins;
+font-size: 65%;
+font-weight: 700;
+line-height: 16.5px;
+text-align: left;
+color: #585858;
+margin-top: 5%;
+left: 70%; /* Center horizontally */
+
+}
