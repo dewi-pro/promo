@@ -1,6 +1,5 @@
 import React from "react";
 import voucher from "../image/footer.png"
-import '../css/promo_head.css'
 import { useNavigate } from 'react-router-dom';
 
 export const Features = (props) => {

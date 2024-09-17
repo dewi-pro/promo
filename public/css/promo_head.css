@@ -18,7 +18,7 @@
     text-align: right;
   }
   .image_link{
-    background: url(../image/Rectangle8.png) center center no-repeat;
+    background: url(../img/Rectangle8.png) center center no-repeat;
     width: 430px;
     height: 584px;
     top: 1334px;
@@ -56,7 +56,7 @@ box-shadow: 0px 30px 60px rgba(50, 6, 6, 0.15);
 border-radius: 5px 16px 5px 5px;
 }
 .button_map{
-background: url(../image/Group2.png) center center no-repeat;
+background: url(../img/Group2.png) center center no-repeat;
 width: 80%; /* Full width of the container */
   height: 44px; /* Specific height */
   border: none; /* Remove default button border */

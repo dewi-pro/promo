@@ -1,5 +1,4 @@
 import React from "react";
-import '../css/promo_head.css'
 import rectangle2 from "../image/Rectangle2.png"
 import { Link } from 'react-router-dom';
 
