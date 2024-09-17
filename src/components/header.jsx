@@ -2,7 +2,7 @@ import React from "react";
 import rectangle2 from "../image/Rectangle2.png"
 import { Link } from 'react-router-dom';
 
-export const Header = (props) => {
+export const Header = () => {
 
   return (
     <header id="header">
