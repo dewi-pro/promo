@@ -1,8 +1,16 @@
 import React from "react";
 import voucher from "../image/footer.png"
 import '../css/promo_head.css'
+import { useNavigate } from 'react-router-dom';
 
 export const Features = (props) => {
+
+  const navigate = useNavigate();
+
+  const handleClick = (data) => {
+    navigate('/map', { state:{data} });
+  };
+
   return (
     <div id="features" className="text-center">
       <div className="container">
@@ -20,9 +28,6 @@ export const Features = (props) => {
           <p id="features" className="line">5. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
               
         </div>
-        {/* <img src={voucher} alt="" style={{width: '480px',
-                                            height: '771px',
-                                            top: '707px',}} />  */}
         <div className="image_link">
         <div className="overlay">
           <div className="container">
@@ -38,10 +43,9 @@ export const Features = (props) => {
             ? props.data.map((d, i) => (
                 <div key={`${d.title}-${i}`} className="col-xs-6 col-md-3 loc_background" >
                   {" "}
-                  {/* <i className={d.icon}></i> */}
                   <p className="map_title">{d.title}</p>
-                  <a href={d.map} className="button_map" >
-                  </a>
+                  <div onClick={() => handleClick(d.map)} className="button_map" >
+                  </div>
                 </div>
               ))
             : "Loading..."}
@@ -59,19 +63,6 @@ export const Features = (props) => {
           </div>
         </div>
         </div>
-
-        {/* <div className="row">
-          {props.data
-            ? props.data.map((d, i) => (
-                <div key={`${d.title}-${i}`} className="col-xs-6 col-md-3">
-                  {" "}
-                  <i className={d.icon}></i>
-                  <h3>{d.title}</h3>
-                  <p>{d.text}</p>
-                </div>
-              ))
-            : "Loading..."}
-        </div> */}
       </div>
     </div>
   );

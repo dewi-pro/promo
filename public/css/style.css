@@ -351,9 +351,48 @@ header .intro-text {
 }
 /* Services Section */
 #services {
-  padding: 100px 0;
+  padding: 15px;
+  transition: all 0.8s;
+  height: 104px;
+  border-radius: 0px 0px 16px 16px;
+  opacity: 0.8; /* Adjust opacity to be more visible */
+  position: relative; /* Allows layering with z-index */
+}
+#services.navbar-default {
+  background: linear-gradient(285.66deg, #FF5A85 -24.54%, #FF2E00 100%);
+  border-color: rgba(231, 231, 231, 0);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+#services a.navbar-brand {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  text-transform: uppercase;
+}
+#services.navbar-default .navbar-nav > li > a {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  color: #555;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 8px 2px;
+  border-radius: 0;
+  margin: 9px 20px 0;
+}
+#services.navbar-default .navbar-nav > li > a:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 0;
+  height: 2px;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: #fff;
+  content: "";
+  transition: width 0.2s;
+}
+#services.navbar-default .navbar-nav > li > a:hover:after {
+  width: 100%;
 }
 #services .service-desc {
   margin: 10px 10px 20px;

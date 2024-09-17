@@ -21,48 +21,11 @@
   "Gallery": [
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "largeImage": "img/banner/promo2.png"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "largeImage": "img/banner/promo3.png"
     }
   ],
   "Services": [
@@ -162,43 +125,43 @@
   "Features": [
     {
       "title": "Antavaya Head Office",
-      "map"  : "https://www.google.com/maps/place/AntaVaya+Group/@-6.1633492,106.8223135,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69f5dbcc733395:0x5989727243dda082!8m2!3d-6.1633492!4d106.8248884!16s%2Fg%2F11cmfd234q?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"
+      "map"  : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.7537838788467!2d106.8248588!3d-6.163719599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f549b91cfe8b%3A0x5fdec234f6637157!2sAntavaya%20Head%20Office!5e0!3m2!1sid!2sid!4v1726538880618!5m2!1sid!2sid"
     },
     {
       "title": "Kota Kasablanka Mall",
-      "map"  : "https://www.google.com/maps/place/Antavaya+-+Kota+Kasablanka,+Jakarta/@-6.2241717,106.8383111,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69f381f51f6af5:0xec5a7aa1128578f4!8m2!3d-6.2241717!4d106.843182!16s%2Fg%2F11hds_20ns?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"
+      "map"  : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2995911056364!2d106.83831108524969!3d-6.224171677684566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f381f51f6af5%3A0xec5a7aa1128578f4!2sAntavaya%20-%20Kota%20Kasablanka%2C%20Jakarta!5e0!3m2!1sen!2sid!4v1726536534075!5m2!1sen!2sid"
     },
     {
       "title": "Central Park Mall",
-      "map"  : "https://www.google.com/maps/place/AntaVaya+Group/@-6.1633492,106.8223135,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69f5dbcc733395:0x5989727243dda082!8m2!3d-6.1633492!4d106.8248884!16s%2Fg%2F11cmfd234q?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"
+      "map"  : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.657380188203!2d106.78819587553437!3d-6.1765999938108305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f65fa5c17507%3A0xa831ac2a3dde6d67!2sAntavaya!5e0!3m2!1sid!2sid!4v1726538941587!5m2!1sid!2sid"
     },
     {
       "title": "Anta Umroh",
-      "map"  : "https://www.google.com/maps/place/AntaVaya+Group/@-6.1633492,106.8223135,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69f5dbcc733395:0x5989727243dda082!8m2!3d-6.1633492!4d106.8248884!16s%2Fg%2F11cmfd234q?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"
+      "map"  : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1340434242798!2d106.79581767553483!3d-6.246060793742278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f16c4c525949%3A0x18c6606d2f1c83af!2sANTA%20UMROH!5e0!3m2!1sid!2sid!4v1726539034145!5m2!1sid!2sid"
     },
     {
       "title": "Trans Studio Mall Bandung",
-      "map"  : "https://www.google.com/maps/place/AntaVaya+Group/@-6.1633492,106.8223135,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69f5dbcc733395:0x5989727243dda082!8m2!3d-6.1633492!4d106.8248884!16s%2Fg%2F11cmfd234q?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"
+      "map"  : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7070079582004!2d107.63412467554012!3d-6.9255836930741665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7d8fa5147c3%3A0x9194e5967d587712!2sAntavaya%20TSM%20Bandung!5e0!3m2!1sid!2sid!4v1726538784500!5m2!1sid!2sid"
     },
     {
       "title": "Antavaya Bali",
-      "map"  : "https://www.google.com/maps/place/AntaVaya+Group/@-6.1633492,106.8223135,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69f5dbcc733395:0x5989727243dda082!8m2!3d-6.1633492!4d106.8248884!16s%2Fg%2F11cmfd234q?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"
+      "map"  : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15776.915083448455!2d115.20614631738277!3d-8.669780999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd24094ce416977%3A0xa87551fe6359a39b!2sAntavaya%20Denpasar!5e0!3m2!1sid!2sid!4v1726539438689!5m2!1sid!2sid"
     },
     {
       "title": "Mall Of Indonesia",
-      "map"  : "https://www.google.com/maps/place/AntaVaya+Group/@-6.1633492,106.8223135,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69f5dbcc733395:0x5989727243dda082!8m2!3d-6.1633492!4d106.8248884!16s%2Fg%2F11cmfd234q?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"
+      "map"  : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.8512190171414!2d106.88828217553413!3d-6.150674093836362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f53403c7c5a5%3A0xfee2bcd90172d0fe!2sAntavaya%20Kelapa%20Gading%20%2F%20MOI!5e0!3m2!1sid!2sid!4v1726539152845!5m2!1sid!2sid"
     },
     {
       "title": "Trans Studio Mall Cibubur",
-      "map"  : "https://www.google.com/maps/place/AntaVaya+Group/@-6.1633492,106.8223135,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69f5dbcc733395:0x5989727243dda082!8m2!3d-6.1633492!4d106.8248884!16s%2Fg%2F11cmfd234q?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"
+      "map"  : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d507390.8981423603!2d106.81685329464061!3d-6.522769066328022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69edff64f0d8b1%3A0x38c856f71131c5ff!2sAntavaya%20-%20TSM%20Cibubur!5e0!3m2!1sid!2sid!4v1726539257878!5m2!1sid!2sid"
     },
     {
       "title": "Antavaya Surabaya",
-      "map"  : "https://www.google.com/maps/place/AntaVaya+Group/@-6.1633492,106.8223135,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69f5dbcc733395:0x5989727243dda082!8m2!3d-6.1633492!4d106.8248884!16s%2Fg%2F11cmfd234q?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"
+      "map"  : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.5648643331397!2d112.73406197554317!3d-7.290246292717191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb95a926cbef%3A0x5da4ec02df045c0a!2sAntaVaya!5e0!3m2!1sid!2sid!4v1726539305057!5m2!1sid!2sid"
     },
     {
       "title": "Antavaya Balikpapan",
-      "map"  : "https://www.google.com/maps/place/AntaVaya+Group/@-6.1633492,106.8223135,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69f5dbcc733395:0x5989727243dda082!8m2!3d-6.1633492!4d106.8248884!16s%2Fg%2F11cmfd234q?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"
+      "map"  : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.839902997151!2d116.85412877551299!3d-1.2689134987190134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df14427ce5ddde7%3A0x88caf5dfa647a5b5!2sAntavaya%20Balikpapan!5e0!3m2!1sid!2sid!4v1726539357180!5m2!1sid!2sid"
     }
   ]
 }
