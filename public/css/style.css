@@ -74,7 +74,7 @@ hr {
 #menu {
   padding: 15px;
   transition: all 0.8s;
-  height: 210px;
+  height: 20%;
   gap: 0px;
   border-radius: 0px 0px 16px 16px;
   opacity: 0.8; /* Adjust opacity to be more visible */

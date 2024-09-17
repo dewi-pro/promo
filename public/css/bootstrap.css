@@ -4255,7 +4255,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-fixed-top,
 .navbar-fixed-bottom {
   position: relative;
-  width: 481;
+  width: 100%;
   /* z-index: 1030; */
 }
 /* @media (min-width: 768px) {

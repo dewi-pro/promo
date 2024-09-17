@@ -50,8 +50,8 @@ export const Features = (props) => {
             : "Loading..."}
                 </div>
                 <img src={voucher} alt="" style={{
-                        width: '430px',
-                        height: '88px',
+                        width: '100%',
+                        height: '14%',
                         position: 'absolute', /* Position fixed to stick to the bottom */
                         bottom: '-15%', /* Align to the bottom of the viewport */
                         left: '50%', /* Center horizontally */
