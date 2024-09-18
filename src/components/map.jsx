@@ -1,7 +1,7 @@
 import React from "react";
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 
-const API_KEY = 'AIzaSyDlRc7bGdeTOiIIG5xjeIllXaH6VoZyxY4';
+const API_KEY = '';
 
 const mapContainerStyle = {
   height: '100vh', // Full viewport height
