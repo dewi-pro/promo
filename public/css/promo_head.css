@@ -1,8 +1,8 @@
 .image_header {
     width: 80%;
-    height: 30%;
+    height: auto;
     margin-inline: 9%;
-    margin-top: -120px;
+    margin-top: -10%;
     margin-bottom: 5%;
     gap: 0px;
     border-radius: 5px 36px 5px 5px;
@@ -21,6 +21,7 @@
     width: 100%;
     border-radius: 10px 36px 0px 0px ;
     opacity: 0px;
+    height: auto;
     angle: 180 deg;
   }
   .title{
@@ -52,7 +53,7 @@ border-radius: 5px 16px 5px 5px;
 }
 .button_map{
 background: url(../img/Group2.png) center center no-repeat;
-width: 80%; /* Full width of the container */
+width: 100%; /* Full width of the container */
   height: 44px; /* Specific height */
   border: none; /* Remove default button border */
   border-radius: 5px; /* Optional: adjust border radius if needed */
@@ -75,7 +76,7 @@ left: 70%; /* Center horizontally */
 }
 .list_img_promo {
   width: 100%;
-  position: fixed;
+  position: inherit;
   bottom: 0;
   left: 0;
   border-radius: 36px 36px 0px 0px;
