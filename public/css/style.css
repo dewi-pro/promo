@@ -79,13 +79,13 @@ hr {
   border-radius: 0px 0px 16px 16px;
   opacity: 0.8; /* Adjust opacity to be more visible */
   position: relative; /* Allows layering with z-index */
-  background: linear-gradient(285.66deg, #FF5A85 -24.54%, #FF2E00 100%);
+  background: linear-gradient(285.66deg, #ff5a85 -24.54%, #ff2e00 100%);
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
 #menu.navbar-default {
-  background: linear-gradient(285.66deg, #FF5A85 -24.54%, #FF2E00 100%);
+  background: linear-gradient(285.66deg, #ff5a85 -24.54%, #ff2e00 100%);
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
@@ -257,7 +257,7 @@ header .intro-text {
 #features {
   background: #fff;
 }
-#features i.fa {
+/* #features i.fa {
   font-size: 38px;
   margin-bottom: 20px;
   transition: all 0.5s;
@@ -268,16 +268,15 @@ header .intro-text {
   border-radius: 50%;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
-}
-#features.title {
+} */
+#features.titles {
   font-family: Poppins;
   font-size: 20px;
   font-weight: 700;
-  line-height: 30px;
   text-align: left;
   color: rgba(88, 88, 88, 1);
 }
-#features.subtitle {
+#features.subtitles {
   font-family: Inter;
   font-size: 12px;
   font-weight: 400;
@@ -292,6 +291,14 @@ header .intro-text {
   line-height: 14.52px;
   text-align: left;
   flex-wrap: wrap;
+}
+#features.area {
+  font-family: Inter;
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+  color: #bb3539;
 }
 #features.image {
   font-family: Inter;
@@ -359,7 +366,7 @@ header .intro-text {
   position: relative; /* Allows layering with z-index */
 }
 #services.navbar-default {
-  background: linear-gradient(285.66deg, #FF5A85 -24.54%, #FF2E00 100%);
+  background: linear-gradient(285.66deg, #ff5a85 -24.54%, #ff2e00 100%);
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }

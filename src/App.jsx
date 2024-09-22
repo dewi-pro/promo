@@ -1,14 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import { Navigation } from "./components/navigation";
-import { Header } from "./components/header";
-import { Features } from "./components/features";
-import { Gallery } from "./components/gallery";
+import { Detail } from "./components/detail";
+import { PromoList } from "./components/promoList";
+import { Map } from "./components/map";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
-import { Services } from "./components/services";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -26,31 +25,46 @@ const App = () => {
     };
 
     handleResize(); // Initial call
-    window.addEventListener('resize', handleResize); // Update on resize
+    window.addEventListener("resize", handleResize); // Update on resize
 
-    return () => window.removeEventListener('resize', handleResize); // Cleanup
-    
+    return () => window.removeEventListener("resize", handleResize); // Cleanup
   }, []);
 
   return (
-    <div style={{ maxWidth: `${viewportWidth}px`, margin: '0 auto', boxSizing: 'border-box' }}>
+    <div
+      style={{
+        maxWidth: `${viewportWidth}px`,
+        margin: "0 auto",
+        boxSizing: "border-box",
+      }}
+    >
       <Router>
-      <Routes>
-
-        <Route path="/" element={
-           <div>
-           <Navigation />
-           <Header data={landingPageData.Header} />
-           <Features data={landingPageData.Features} />
-           </div>
-        } />
-        <Route path="/list-promo" element={<Gallery data={landingPageData.Gallery}/>} />
-        <Route path="/map" element={<Services/>} />
-
-      </Routes>
-    </Router>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <div>
+                <Navigation title="Whatsapp" />
+                <Detail data={landingPageData.Detail}  />
+              </div>
+            }
+          />
+          <Route
+            path="/list-promo"
+            element={
+              <div>
+                <Navigation title="List Promo" />
+                <PromoList data={landingPageData.Gallery} />{" "}
+              </div>
+            }
+          />
+          <Route path="/map" element={<div>
+                <Navigation title="Lokasi" />
+                <Map/>{" "}
+              </div>} />
+        </Routes>
+      </Router>
     </div>
-
   );
 };
 

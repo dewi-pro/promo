@@ -1,31 +1,26 @@
 import React from "react";
-import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
+import { useLocation } from 'react-router-dom';
+export const Map = () => {
 
-const API_KEY = '';
+  const location = useLocation();
+  const { state } = location;
+  const data = state?.data;
+  
+  return (
+    <div>
+      <div className="container">
+      <iframe
+      title="map"
+        src={data}
+        width="100%"
+        height="100%"
+        style={{ border: 0 }}
+        allowFullScreen
+        loading="lazy"
+      ></iframe>
 
-const mapContainerStyle = {
-  height: '100vh', // Full viewport height
-  width: '100%', // Full viewport width
-};
 
-// Center of the map and zoom level
-const center = {
-  lat: 51.505,
-  lng: -0.09,
-};
-
-const GoogleMapComponent = () => {
-    return (
-      <LoadScript googleMapsApiKey={API_KEY}>
-      <GoogleMap
-        mapContainerStyle={mapContainerStyle}
-        center={center}
-        zoom={13}
-      >
-        <Marker position={center} />
-      </GoogleMap>
-    </LoadScript>
+      </div>
+    </div>
   );
 };
-
-export default GoogleMapComponent;
