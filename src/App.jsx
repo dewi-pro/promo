@@ -53,7 +53,7 @@ const App = () => {
             path="/list-promo"
             element={
               <div>
-                <Navigation title="List Promo" />
+                <Navigation title="Promo" />
                 <PromoList data={landingPageData.ListPromo} />{" "}
               </div>
             }

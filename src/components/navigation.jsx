@@ -25,18 +25,6 @@ export const Navigation = (props) => {
   );
 };
 const styles = {
-  button: {
-    display: "flex",
-    alignItems: "center",
-    backgroundColor: "#25D366", // WhatsApp green color
-    color: "white",
-    border: "none",
-    padding: "10px 20px",
-    borderRadius: "5px",
-    cursor: "pointer",
-    fontSize: "16px",
-    margin: "10px 0", // Optional margin for spacing
-  },
   icon: {
     marginRight: "8px", // Space between the icon and text
     color: "black",

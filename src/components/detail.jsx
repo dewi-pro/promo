@@ -1,5 +1,5 @@
 import React from "react";
-import rectangle2 from "../image/Rectangle2.png";
+import rectangle2 from "../image/Rectangle2.jpg";
 import { Link } from "react-router-dom";
 import footer from "../image/footer.png";
 import { useNavigate } from "react-router-dom";
@@ -9,8 +9,8 @@ export const Detail = (props) => {
   const navigate = useNavigate();
   const location = useLocation();
   const { state } = location;
-  const data = state?.data;
-console.log(data);
+  const promo = state?.goTo;
+
   const handleClick = (data) => {
     navigate("/map", { state: { data } });
   };
@@ -19,7 +19,11 @@ console.log(data);
     <div>
       <header id="header">
         <div className="intro">
-          <img src={state ? state.goTo :rectangle2} alt="banner" className="image_header" />
+          <img
+            src={promo ? promo.largeImage : rectangle2}
+            alt="banner"
+            className="image_header"
+          />
         </div>
         <div className="link">
           <Link
@@ -34,47 +38,50 @@ console.log(data);
       <div id="detailPromos" className="text-center">
         <div className="container">
           <div className="col-md-10 col-md-offset-1 ">
-            {data
-              ? data.Detail_Promo.map((d, i) => (
-                  <div key={`${d.baru_landing.title}-${i}`}>
-                    <p id="detailPromos" className="title">
-                      {d.baru_landing.title}
-                    </p>
-                    <p id="detailPromos" className="subtitle">
-                      {d.baru_landing.subtitle}
-                    </p>
-                    <div style={{ marginTop: "50px" }}></div>
-                    {d.baru_landing.lines.map((line, index) => (
-                      <p id="detailPromos" key={index} className="line">
-                        {line}
-                      </p>
-                    ))}
-                  </div>
-                ))
-              : props.data
-              ? props.data.Detail_Promo.map((d, i) => (
-                  <div key={`${d.baru_landing.title}-${i}`}>
-                    <div style={{ marginTop: "5%" }}></div>
-
-                    <p id="detailPromos" className="titles">
-                      {d.baru_landing.title}
-                    </p>
-                    <p id="detailPromos" className="subtitles">
-                      {d.baru_landing.subtitle}
-                    </p>
-                    <p id="detailPromos" className="area">
-                      {d.baru_landing.area}
-                    </p>
-                    <div style={{ marginTop: "5%" }}></div>
-                    {d.baru_landing.lines.map((line, index) => (
-                      <p id="detailPromos" key={index} className="line">
-                        {line}
-                      </p>
-                    ))}
+            {promo ? (
+              <div>
                 <div style={{ marginTop: "5%" }}></div>
-                  </div>
-                ))
-              : "Loading..."}
+                <p id="detailPromos" className="titles">
+                  {promo.title}
+                </p>
+                <p id="detailPromos" className="subtitles">
+                  {promo.subtitle}
+                </p>
+                <p id="detailPromos" className="area">
+                  {promo.area}
+                </p>
+                {promo.lines.map((line, index) => (
+                  <p id="detailPromos" key={index} className="line">
+                    {line}
+                  </p>
+                ))}
+                <div style={{ marginTop: "50px" }}></div>
+              </div>
+            ) : props.data ? (
+              props.data.Detail_Promo.map((d, i) => (
+                <div key={`${d.baru_landing.title}-${i}`}>
+                  <div style={{ marginTop: "5%" }}></div>
+                  <p id="detailPromos" className="titles">
+                    {d.baru_landing.title}
+                  </p>
+                  <p id="detailPromos" className="subtitles">
+                    {d.baru_landing.subtitle}
+                  </p>
+                  <p id="detailPromos" className="area">
+                    {d.baru_landing.area}
+                  </p>
+                  <div style={{ marginTop: "5%" }}></div>
+                  {d.baru_landing.lines.map((line, index) => (
+                    <p id="detailPromos" key={index} className="line">
+                      {line}
+                    </p>
+                  ))}
+                  <div style={{ marginTop: "5%" }}></div>
+                </div>
+              ))
+            ) : (
+              "Loading..."
+            )}
           </div>
           <div className="image_link">
             <div className="overlay">

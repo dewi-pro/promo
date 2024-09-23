@@ -1,6 +1,6 @@
 import { Image } from "./image";
 import React from "react";
-import rectangle2 from "../image/Rectangle2.png"
+import rectangle2 from "../image/Rectangle2.jpg"
 import rectangle4 from "../image/IMG_9480.png"
 import { useNavigate } from "react-router-dom";
 
@@ -21,7 +21,7 @@ export const PromoList = (props) => {
                   >
                     <Image
                       smallImage={d.largeImage}
-                      goTo={()=> navigate("/", { state: {goTo: d.largeImage } })}
+                      goTo={()=> navigate("/", { state: {goTo: d } })}
                     />
                   </div>
                 ))
