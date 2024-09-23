@@ -73,8 +73,8 @@
   left: 70%; /* Center horizontally */
 }
 .list_img_promo {
-  width: 37%;
-  position: absolute;
+  width: 100%;
+  position: relative;
   bottom: 0;
   border-radius: 36px 36px 0px 0px;
   background: #ff4b57;
