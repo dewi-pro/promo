@@ -45,7 +45,7 @@ const App = () => {
             element={
               <div>
                 <Navigation title="Whatsapp" />
-                <Detail data={landingPageData.Detail}  />
+                <Detail data={landingPageData.Detail} />
               </div>
             }
           />
@@ -54,14 +54,19 @@ const App = () => {
             element={
               <div>
                 <Navigation title="List Promo" />
-                <PromoList data={landingPageData.Gallery} />{" "}
+                <PromoList data={landingPageData.ListPromo} />{" "}
               </div>
             }
           />
-          <Route path="/map" element={<div>
+          <Route
+            path="/map"
+            element={
+              <div>
                 <Navigation title="Lokasi" />
-                <Map/>{" "}
-              </div>} />
+                <Map />{" "}
+              </div>
+            }
+          />
         </Routes>
       </Router>
     </div>

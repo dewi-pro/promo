@@ -254,10 +254,10 @@ header .intro-text {
   text-align: center;
 }
 /* Features Section */
-#features {
+#detailPromos {
   background: #fff;
 }
-/* #features i.fa {
+/* #detailPromos i.fa {
   font-size: 38px;
   margin-bottom: 20px;
   transition: all 0.5s;
@@ -269,14 +269,14 @@ header .intro-text {
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 } */
-#features.titles {
+#detailPromos.titles {
   font-family: Poppins;
   font-size: 20px;
   font-weight: 700;
   text-align: left;
   color: rgba(88, 88, 88, 1);
 }
-#features.subtitles {
+#detailPromos.subtitles {
   font-family: Inter;
   font-size: 12px;
   font-weight: 400;
@@ -284,7 +284,7 @@ header .intro-text {
   text-align: left;
   color: rgba(88, 88, 88, 1);
 }
-#features.line {
+#detailPromos.line {
   font-family: Inter;
   font-size: 12px;
   font-weight: 400;
@@ -292,7 +292,7 @@ header .intro-text {
   text-align: left;
   flex-wrap: wrap;
 }
-#features.area {
+#detailPromos.area {
   font-family: Inter;
   font-size: 9px;
   font-weight: 500;
@@ -300,7 +300,7 @@ header .intro-text {
   text-align: left;
   color: #bb3539;
 }
-#features.image {
+#detailPromos.image {
   font-family: Inter;
   font-size: 12px;
   font-weight: 400;

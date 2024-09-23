@@ -31,21 +31,21 @@ console.log(data);
         </div>
       </header>
 
-      <div id="features" className="text-center">
+      <div id="detailPromos" className="text-center">
         <div className="container">
           <div className="col-md-10 col-md-offset-1 ">
             {data
               ? data.Detail_Promo.map((d, i) => (
                   <div key={`${d.baru_landing.title}-${i}`}>
-                    <p id="features" className="title">
+                    <p id="detailPromos" className="title">
                       {d.baru_landing.title}
                     </p>
-                    <p id="features" className="subtitle">
+                    <p id="detailPromos" className="subtitle">
                       {d.baru_landing.subtitle}
                     </p>
                     <div style={{ marginTop: "50px" }}></div>
                     {d.baru_landing.lines.map((line, index) => (
-                      <p id="features" key={index} className="line">
+                      <p id="detailPromos" key={index} className="line">
                         {line}
                       </p>
                     ))}
@@ -56,18 +56,18 @@ console.log(data);
                   <div key={`${d.baru_landing.title}-${i}`}>
                     <div style={{ marginTop: "5%" }}></div>
 
-                    <p id="features" className="titles">
+                    <p id="detailPromos" className="titles">
                       {d.baru_landing.title}
                     </p>
-                    <p id="features" className="subtitles">
+                    <p id="detailPromos" className="subtitles">
                       {d.baru_landing.subtitle}
                     </p>
-                    <p id="features" className="area">
+                    <p id="detailPromos" className="area">
                       {d.baru_landing.area}
                     </p>
                     <div style={{ marginTop: "5%" }}></div>
                     {d.baru_landing.lines.map((line, index) => (
-                      <p id="features" key={index} className="line">
+                      <p id="detailPromos" key={index} className="line">
                         {line}
                       </p>
                     ))}
