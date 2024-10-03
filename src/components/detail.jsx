@@ -28,8 +28,7 @@ export const Detail = (props) => {
         <div className="link">
           <Link
             to="/list-promo"
-            style={{ color: "#9B9B9B", textDecoration: "none" }}
-          >
+            style={{ color: "#9B9B9B", textDecoration: "none",   fontFamily: "Poppins"}}>
             lihat promo lainnya
           </Link>
         </div>

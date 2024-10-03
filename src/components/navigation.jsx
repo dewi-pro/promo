@@ -16,7 +16,7 @@ export const Navigation = (props) => {
       <div className="container">
         <div className="navbar-header">
           <FaArrowLeft style={styles.icon} onClick={handleBack} />
-          <a style={{ fontSize: "21px", color: "black" }} href={handleBack}>
+          <a style={{ fontSize: "21px", color: "black" , fontFamily: "Poppins"}} href={handleBack}>
             {props.title}
           </a>{" "}
         </div>
