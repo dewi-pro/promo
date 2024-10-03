@@ -12,7 +12,7 @@ export const PromoList = (props) => {
     <div className="intro">
       <img src={rectangle2} alt='banner' className="image_header" onClick={()=> navigate("/")}/>
       </div>
-      <div className="portfolio-items">
+      {/* <div className="portfolio-items">
             {props.data
               ? props.data.map((d, i) => (
                   <div
@@ -26,10 +26,10 @@ export const PromoList = (props) => {
                   </div>
                 ))
               : "Loading..."}
-          </div>
+          </div> */}
           <div style={{ marginTop: "8%" }}></div>
 
-          <div className="list_img_promo"> 
+          <div className="footer_img_promo"> 
           <img src={rectangle4} alt='banner' className="footer_img"/>
 
           </div>
