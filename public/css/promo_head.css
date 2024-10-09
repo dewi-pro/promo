@@ -12,8 +12,7 @@
 }
 .link {
   /* margin-top: 3%; */
-  text-align: right;
-  margin-right: 5%;
+  text-align: center;
 }
 .image_link {
   background: url(../img/Rectangle8.png) center center no-repeat;
@@ -42,7 +41,7 @@
 }
 .loc_background {
   width: 44%;
-  height: 8%;
+  height: 9%;
   margin: 2%;
   margin-inline: 2%;
   background: #ffffff;

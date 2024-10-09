@@ -63,12 +63,8 @@
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.657380188203!2d106.78819587553437!3d-6.1765999938108305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f65fa5c17507%3A0xa831ac2a3dde6d67!2sAntavaya!5e0!3m2!1sid!2sid!4v1726538941587!5m2!1sid!2sid"
       },
       {
-        "title": "Anta Umroh",
+        "title": "Antavaya Melawai/Anta Umroh",
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1340434242798!2d106.79581767553483!3d-6.246060793742278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f16c4c525949%3A0x18c6606d2f1c83af!2sANTA%20UMROH!5e0!3m2!1sid!2sid!4v1726539034145!5m2!1sid!2sid"
-      },
-      {
-        "title": "Trans Studio Mall Bandung",
-        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7070079582004!2d107.63412467554012!3d-6.9255836930741665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7d8fa5147c3%3A0x9194e5967d587712!2sAntavaya%20TSM%20Bandung!5e0!3m2!1sid!2sid!4v1726538784500!5m2!1sid!2sid"
       },
       {
         "title": "Antavaya Bali",
@@ -79,16 +75,32 @@
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.8512190171414!2d106.88828217553413!3d-6.150674093836362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f53403c7c5a5%3A0xfee2bcd90172d0fe!2sAntavaya%20Kelapa%20Gading%20%2F%20MOI!5e0!3m2!1sid!2sid!4v1726539152845!5m2!1sid!2sid"
       },
       {
-        "title": "Trans Studio Mall Cibubur",
-        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d507390.8981423603!2d106.81685329464061!3d-6.522769066328022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69edff64f0d8b1%3A0x38c856f71131c5ff!2sAntavaya%20-%20TSM%20Cibubur!5e0!3m2!1sid!2sid!4v1726539257878!5m2!1sid!2sid"
-      },
-      {
         "title": "Antavaya Surabaya",
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.5648643331397!2d112.73406197554317!3d-7.290246292717191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb95a926cbef%3A0x5da4ec02df045c0a!2sAntaVaya!5e0!3m2!1sid!2sid!4v1726539305057!5m2!1sid!2sid"
       },
       {
         "title": "Antavaya Balikpapan",
         "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.839902997151!2d116.85412877551299!3d-1.2689134987190134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df14427ce5ddde7%3A0x88caf5dfa647a5b5!2sAntavaya%20Balikpapan!5e0!3m2!1sid!2sid!4v1726539357180!5m2!1sid!2sid"
+      },
+      {
+        "title": "Antavaya Bandung",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.8845675550037!2d107.59515077592621!3d-6.904404993094931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e66a02534ad9%3A0xac80f70a8a4b8af7!2sAntavaya%20-%20Pasir%20Kaliki%2C%20Bandung!5e0!3m2!1sen!2sid!4v1728011561321!5m2!1sen!2sid"
+      },
+      {
+        "title": "Antavaya Makassar",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15894.976833952136!2d119.39298546245132!3d-5.144823467318077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbf02a420f7ba3d%3A0xc1c97a4f5b2bb022!2sAntavaya%20-%20Makassar!5e0!3m2!1sen!2sid!4v1728011810847!5m2!1sen!2sid"
+      },
+      {
+        "title": "Trans Studio Mall Makassar",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15894.976833952136!2d119.39298546245132!3d-5.144823467318077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbf1d1544b24c3f%3A0xedec9b08c48467db!2sAntavaya%20-%20Trans%20Studio%20Mall%2C%20Makassar!5e0!3m2!1sen!2sid!4v1728011857317!5m2!1sen!2sid"
+      },
+      {
+        "title": "Trans Studio Mall Bandung",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7070079582004!2d107.63412467554012!3d-6.9255836930741665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7d8fa5147c3%3A0x9194e5967d587712!2sAntavaya%20TSM%20Bandung!5e0!3m2!1sid!2sid!4v1726538784500!5m2!1sid!2sid"
+      },
+      {
+        "title": "Trans Studio Mall Cibubur",
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d507390.8981423603!2d106.81685329464061!3d-6.522769066328022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69edff64f0d8b1%3A0x38c856f71131c5ff!2sAntavaya%20-%20TSM%20Cibubur!5e0!3m2!1sid!2sid!4v1726539257878!5m2!1sid!2sid"
       }
     ]
   }

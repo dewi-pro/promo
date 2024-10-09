@@ -1,4 +1,4 @@
-import { Image } from "./image";
+// import { Image } from "./image";
 import React from "react";
 import rectangle2 from "../image/Rectangle2.jpg"
 import rectangle4 from "../image/IMG_9480.png"
