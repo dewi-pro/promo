@@ -1,9 +1,46 @@
-import React from "react";
-import rectangle2 from "../image/Rectangle2.jpg";
-import { Link } from "react-router-dom";
-import footer from "../image/footer.png";
-import { useNavigate } from "react-router-dom";
-import { useLocation } from "react-router-dom";
+import React, { useEffect } from 'react';
+
+import axios from 'axios';
+import {
+  Link,
+  useLocation,
+  useNavigate,
+} from 'react-router-dom';
+
+import footer from '../image/footer.png';
+import rectangle2 from '../image/Rectangle2.jpg';
+
+const recordVisitor = async () => {
+  // Sample visitor data
+  const visitorInfo = {
+    browser: navigator.userAgent, // You can use the browser's user-agent string
+    device: 'desktop', // Or use a device detection library for detailed info
+    ip_address_v4: '192.168.1.1', // You can get this from your server-side code
+    ip_address_v6: '', // Optionally, you can implement logic to get an IPv6 address
+    operating_system: navigator.platform, // This will give OS info
+    page_url: window.location.href, // Current URL of the page
+    referrer: document.referrer || 'Direct Access', // The referring URL
+    session_id: localStorage.getItem('session-id') || 'session-id', // Session ID
+    site: window.location.hostname, // Current site domain
+    token: localStorage.getItem('auth-token') || '', // Optional JWT token for authorization
+    user_agent: navigator.userAgent, // Browser user agent
+  };
+
+  try {
+    const response = await axios.post(
+      'https://site-api.myantavaya.com/v1/site/site-visitor?api_key=89100546-c57e-43bb-958a-af2e0e286325', 
+      visitorInfo, {
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json',
+        }
+      }
+    );
+    console.log('Visitor data recorded:', response.data, visitorInfo);
+  } catch (error) {
+    console.error('Error recording visitor data:', error);
+  }
+};
 
 export const Detail = (props) => {
   const navigate = useNavigate();
@@ -11,6 +48,12 @@ export const Detail = (props) => {
   const { state } = location;
   const promo = state?.goTo;
 
+  
+    // Call the recordVisitor function when the component mounts
+    useEffect(() => {
+      recordVisitor();
+    }, []);
+  
   const handleClick = (data) => {
     navigate("/map", { state: { data } });
   };
@@ -33,7 +76,27 @@ export const Detail = (props) => {
           </Link>
         </div>
       </header>
-
+      {/* <div className="coupon">
+  <div className="container">
+    <h3>Company Logo</h3>
+  </div>
+  <div className="container" style={{backgroundColor:"white"}}>
+  <img
+            src={promo ? promo.largeImage : rectangle2}
+            alt="banner"
+            className="image_header"
+          />
+    <h2><b>20% OFF YOUR PURCHASE</b></h2> 
+    <p>Lorem ipsum dolor sit amet, et nam pertinax gloriatur. Sea te minim soleat senserit, ex quo luptatum tacimates voluptatum, salutandi delicatissimi eam ea. In sed nullam laboramus appellantur, mei ei omnis dolorem mnesarchum.</p>
+    <div className="circle1" ></div>
+    <div className="circle2" ></div>
+  </div>
+  
+  <div className="container">
+    <p>Use Promo Code: <span className="promo">BOH232</span></p>
+    <p className="expire">Expires: Jan 03, 2021</p>
+  </div>
+</div> */}
       <div id="detailPromos" className="text-center">
         <div className="container">
           <div className="col-md-10 col-md-offset-1 ">
@@ -119,12 +182,12 @@ export const Detail = (props) => {
                         width: "100%",
                         height: "14%",
                         position:
-                          "absolute" /* Position fixed to stick to the bottom */,
+                          "absolute",
                         bottom:
-                          "-15%" /* Align to the bottom of the viewport */,
-                        left: "50%" /* Center horizontally */,
+                          "-15%",
+                        left: "50%" ,
                         transform:
-                          "translateX(-50%)" /* Adjust for horizontal centering */,
+                          "translateX(-50%)",
                       }}
                     />
                   </div>
@@ -134,6 +197,7 @@ export const Detail = (props) => {
           </div>
         </div>
       </div>
+
     </div>
   );
 };
