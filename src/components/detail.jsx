@@ -11,22 +11,27 @@ import footer from '../image/footer.png';
 import rectangle2 from '../image/Rectangle2.jpg';
 
 const recordVisitor = async () => {
-  // Sample visitor data
-  const visitorInfo = {
-    browser: navigator.userAgent, // You can use the browser's user-agent string
-    device: 'desktop', // Or use a device detection library for detailed info
-    ip_address_v4: '192.168.1.1', // You can get this from your server-side code
-    ip_address_v6: '', // Optionally, you can implement logic to get an IPv6 address
-    operating_system: navigator.platform, // This will give OS info
-    page_url: window.location.href, // Current URL of the page
-    referrer: document.referrer || 'Direct Access', // The referring URL
-    session_id: localStorage.getItem('session-id') || 'session-id', // Session ID
-    site: window.location.hostname, // Current site domain
-    token: localStorage.getItem('auth-token') || '', // Optional JWT token for authorization
-    user_agent: navigator.userAgent, // Browser user agent
-  };
-
   try {
+    // Fetch the public IP address from an external service (e.g., ipify)
+    const ipResponse = await axios.get('https://api.ipify.org?format=json');
+    const ipAddress = ipResponse.data.ip; // This is the public IP
+
+    // Sample visitor data with the fetched IP address
+    const visitorInfo = {
+      browser: navigator.userAgent, // Browser's user-agent string
+      device: 'desktop', // Or use a device detection library for more detail
+      ip_address_v4: ipAddress, // Use the public IP address here
+      ip_address_v6: '', // Optionally, handle IPv6 if needed
+      operating_system: navigator.platform, // OS info
+      page_url: window.location.href, // Current page URL
+      referrer: document.referrer || 'Direct Access', // Referring page URL
+      session_id: localStorage.getItem('session-id') || 'session-id', // Session ID
+      site: window.location.hostname, // Current site domain
+      token: localStorage.getItem('auth-token') || '', // Optional JWT token
+      user_agent: navigator.userAgent, // Browser user agent
+    };
+
+    // Post the visitor info to the API
     const response = await axios.post(
       'https://site-api.myantavaya.com/v1/site/site-visitor?api_key=89100546-c57e-43bb-958a-af2e0e286325', 
       visitorInfo, {
@@ -36,7 +41,9 @@ const recordVisitor = async () => {
         }
       }
     );
-    console.log('Visitor data recorded:', response.data, visitorInfo);
+
+    // console.log('Visitor data recorded:', response.data, visitorInfo);
+
   } catch (error) {
     console.error('Error recording visitor data:', error);
   }
