@@ -26,7 +26,7 @@ const recordVisitor = async () => {
       page_url: window.location.href, // Current page URL
       referrer: document.referrer || 'Direct Access', // Referring page URL
       session_id: localStorage.getItem('session-id') || 'session-id', // Session ID
-      site: window.location.hostname, // Current site domain
+      site: 'promo.antavaya.com',// window.location.hostname, // Current site domain
       token: localStorage.getItem('auth-token') || '', // Optional JWT token
       user_agent: navigator.userAgent, // Browser user agent
     };
